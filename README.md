@@ -11,3 +11,12 @@ Proposed architecture comprises an event proposal module, an EfficientNet B7 net
 
 # Installation
 To install the necessary dependencies, run the following command: pip install -r requirements.txt
+# Data Format
+The dataset is available in two formats: (1) MP4 video files and (2) a .json file containing the captions for each video id. The video files are named according to their unique ID.
+VideoID: a unique ID for each video
+Description: the text description of the action or event in the video during the specified time period
+
+# Usage
+Download the MSVD dataset.
+To convert into features run the extract_features.py file as python extractFeaturesEfficientNetB7.py
+Run train.py for local training or use the Efficient NET B7_ modeltrain_.ipynb notebook
