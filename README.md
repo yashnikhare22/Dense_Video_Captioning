@@ -20,3 +20,30 @@ Description: the text description of the action or event in the video during the
 Download the MSVD dataset.
 To convert into features run the extract_features.py file as python extractFeaturesEfficientNetB7.py
 Run train.py for local training or use the Efficient NET B7_ modeltrain_.ipynb notebook
+
+# Model
+# Training Architecture
+![image](https://user-images.githubusercontent.com/49709163/234733154-b97b3fd8-738a-45ee-91e9-4e50247bfe5e.png)
+ # Encoder Model
+ ![image](https://user-images.githubusercontent.com/49709163/234733784-0856ebae-b9aa-4093-89ed-86a95458aa68.png)
+# Decoder Model
+![image](https://user-images.githubusercontent.com/49709163/234733933-30f038da-6db0-4631-9819-58d1539de3e1.png)
+
+# Metric
+This is the graph of epochs vs metric. The metric used is accuracy.
+![image](https://user-images.githubusercontent.com/49709163/234734018-f5a6d1eb-5668-4dea-8bf8-17766cbb7679.png)
+# Loss
+This is the graph of epochs vs loss. The loss used is categorical crossentropy
+![image](https://user-images.githubusercontent.com/49709163/234734122-dacde4ed-de74-4c8c-b584-2a3194f093a4.png)
+
+
+
+
+
+
+
+
+
+
+
+
