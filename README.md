@@ -31,10 +31,15 @@ Run train.py for local training or use the Efficient NET B7_ modeltrain_.ipynb n
 
 # Metric
 This is the graph of epochs vs metric.The metric used is accuracy.
-                         ![image](https://user-images.githubusercontent.com/49709163/234734018-f5a6d1eb-5668-4dea-8bf8-17766cbb7679.png)
+![image](https://user-images.githubusercontent.com/49709163/234734018-f5a6d1eb-5668-4dea-8bf8-17766cbb7679.png)
 # Loss
 This is the graph of epochs vs loss.The loss used is categorical crossentropy.
-                         ![image](https://user-images.githubusercontent.com/49709163/234734122-dacde4ed-de74-4c8c-b584-2a3194f093a4.png)
+![image](https://user-images.githubusercontent.com/49709163/234734122-dacde4ed-de74-4c8c-b584-2a3194f093a4.png)
+
+# Results 
+The model is executed using Keras and it is trained on Google Colab which is free and open source. Each epoch takes 40 seconds.Optimizer used is Adam and the initial
+learning rate is 0.0001 and trained for 30 epochs. 
+![image](https://user-images.githubusercontent.com/49709163/234734659-8e5cbe5b-9a16-4b32-ad5e-fd336029bbdb.png)
 
 
 
