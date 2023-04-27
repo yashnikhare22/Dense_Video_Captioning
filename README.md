@@ -30,9 +30,11 @@ Run train.py for local training or use the Efficient NET B7_ modeltrain_.ipynb n
 ![image](https://user-images.githubusercontent.com/49709163/234733933-30f038da-6db0-4631-9819-58d1539de3e1.png)
 
 # Metric
-This is the graph of epochs vs metric. The metric used is accuracy.![image](https://user-images.githubusercontent.com/49709163/234734018-f5a6d1eb-5668-4dea-8bf8-17766cbb7679.png)
+This is the graph of epochs vs metric.The metric used is accuracy.
+                         ![image](https://user-images.githubusercontent.com/49709163/234734018-f5a6d1eb-5668-4dea-8bf8-17766cbb7679.png)
 # Loss
-This is the graph of epochs vs loss. The loss used is categorical crossentropy.![image](https://user-images.githubusercontent.com/49709163/234734122-dacde4ed-de74-4c8c-b584-2a3194f093a4.png)
+This is the graph of epochs vs loss.The loss used is categorical crossentropy.
+                         ![image](https://user-images.githubusercontent.com/49709163/234734122-dacde4ed-de74-4c8c-b584-2a3194f093a4.png)
 
 
 
